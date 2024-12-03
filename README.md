@@ -29,9 +29,7 @@ Ensure you have the following installed on your system:
 ---
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/role-based-access-control.git
-cd role-based-access-control
+
 
 ###Setup Backend
 Navigate to the backend directory:
@@ -43,9 +41,11 @@ Install dependencies:
 npm install
 Create a .env file in the backend folder:
 
+MONGO_URI=mongodb+srv://dearjhon977:777@cluster0.g1psl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=30594%#&&2394riefji3@3
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+
+
 Start the backend server:
 
 npm start
