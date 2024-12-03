@@ -41,6 +41,8 @@ Install dependencies:
 npm install
 Create a .env file in the backend folder:
 
+
+it is my credential if you want to used so you can use
 MONGO_URI=mongodb+srv://dearjhon977:777@cluster0.g1psl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=30594%#&&2394riefji3@3
 PORT=5000
