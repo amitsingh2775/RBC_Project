@@ -1,8 +1,8 @@
 import axios from "axios";
 
-// Create an axios instance for API requests
+
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // Make sure this matches your backend URL
+  baseURL: "http://localhost:5000/api", 
 });
 
 // Request to login a user

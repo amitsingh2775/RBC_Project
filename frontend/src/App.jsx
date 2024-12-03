@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { RecoilRoot } from 'recoil'; // Import RecoilRoot
+import { RecoilRoot } from 'recoil'; 
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Profile from './pages/Profile';
